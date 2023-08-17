@@ -1,0 +1,97 @@
+*{
+    margin:0;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+h1{ 
+    background-color:  rgb(238, 165, 202);
+    color: rgb(58, 53, 53);
+    border: 10px double rgb(127, 211, 226);
+    padding:24px;
+    text-align: center;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+figcaption{
+    font-size: 12px;
+}
+
+.img-cupcake-container{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-cupcake{
+    height: 400px;
+    width: auto;
+    border: 8px solid rgb(127, 211, 226);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.recipe-table{
+    padding:30px;
+    padding-bottom: auto;
+    background-color: rgb(127, 211, 226);
+}
+
+.recipe-pages{
+    text-align: left;
+    list-style: none;
+    margin: 0;
+    line-height: 70px;
+    text-align: center;
+}
+
+.recipe-pages li {
+    background-color: white;
+    border-radius: 16px;
+    padding-left: 25px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    text-indent: -0.75rem;
+    display: inline-block;
+  }
+
+.recipe-pages li::before {
+    content: '🧁 ';
+  }
+
+
+
+.ingredients.brownies{
+    background-color: rgba(21, 199, 184, 0.219);
+}
+
+.recipe.brownies{
+    background-color: rgba(92, 6, 6, 0.623);
+}
+
+.ingredients.cheesecake{
+    background-color: cornsilk;
+}
+
+.recipe.cheesecake{
+    background-color: rgb(241, 219, 223);
+}
+
+.ingredients.cake{
+  background-color: rgba(27, 74, 112, 0.568);
+}
+
+.recipe.cake{
+    background-color: rgba(124, 119, 119, 0.623);
+}
