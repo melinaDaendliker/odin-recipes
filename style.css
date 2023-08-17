@@ -4,15 +4,14 @@
 
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    background-color: rgb(127, 211, 226);
 }
-
 
 h1{ 
     background-color:  rgb(238, 165, 202);
     color: rgb(58, 53, 53);
     border: 10px double rgb(127, 211, 226);
-    padding:24px;
+    padding:30px;
     text-align: center;
 }
 
@@ -26,10 +25,13 @@ figcaption{
     font-size: 12px;
 }
 
+.cupcake-img-div{
+    background-color: white;
+    padding: 50px;
+}
+
 .img-cupcake-container{
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .img-cupcake{
@@ -40,16 +42,11 @@ figcaption{
     padding: 20px;
 }
 
-.recipe-table{
-    padding:30px;
-    padding-bottom: auto;
-    background-color: rgb(127, 211, 226);
-}
-
 .recipe-pages{
     text-align: left;
     list-style: none;
     margin: 0;
+    padding: 30px;
     line-height: 70px;
     text-align: center;
 }
