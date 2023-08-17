@@ -1,0 +1,44 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+h1{ color: rgb(58, 53, 53);
+    background-color: rgb(241, 175, 208);
+    text-align: center;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+figcaption{
+    font-size: 12px;
+}
+
+.ingredients.brownies{
+    background-color: rgba(21, 199, 184, 0.219);
+}
+
+.recipe.brownies{
+    background-color: rgba(92, 6, 6, 0.623);
+}
+
+.ingredients.cheesecake{
+    background-color: cornsilk;
+}
+
+.recipe.cheesecake{
+    background-color: rgb(241, 219, 223);
+}
+
+.ingredients.cake{
+  background-color: rgba(27, 74, 112, 0.568);
+}
+
+.recipe.cake{
+    background-color: rgba(124, 119, 119, 0.623);
+}
