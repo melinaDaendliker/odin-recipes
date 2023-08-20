@@ -1,16 +1,16 @@
 *{
     margin:0;
+    padding:0;
 }
 
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(127, 211, 226);
 }
 
 h1{ 
-    background-color:  rgb(238, 165, 202);
-    color: rgb(58, 53, 53);
-    border: 10px double rgb(127, 211, 226);
+    background-color: #FFD0D0;
+    color: rgb(91, 82, 82);
+    border: 6px double #FF9EAA;
     padding:30px;
     text-align: center;
 }
@@ -21,51 +21,74 @@ a{
     text-decoration:none;
 }
 
-figcaption{
-    font-size: 12px;
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    gap: 70px;
+
 }
 
 .cupcake-img-div{
     background-color: white;
-    padding: 50px;
-}
-
-.img-cupcake-container{
-    text-align: center;
 }
 
 .img-cupcake{
-    height: 400px;
+    height: 500px;
     width: auto;
-    border: 8px solid rgb(127, 211, 226);
+    border: 8px solid #C1ECE4;
     border-radius: 16px;
     padding: 20px;
 }
 
-.recipe-pages{
-    text-align: left;
-    list-style: none;
-    margin: 0;
-    padding: 30px;
-    line-height: 70px;
+figcaption{
+    font-size: 12px;
     text-align: center;
 }
 
+.recipe-table{
+   background-color: #3aa6b991;
+   padding: 60px;
+   border-radius: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+.recipe-pages{
+    list-style: none; 
+  
+}
+
 .recipe-pages li {
+    display: flex;
+    gap: 15px;
     background-color: white;
     border-radius: 16px;
     padding-left: 25px;
     padding-top:20px;
     padding-bottom: 20px;
     padding-right: 20px;
-    margin: 20px;
+    margin:20px;
     text-indent: -0.75rem;
-    display: inline-block;
   }
 
 .recipe-pages li::before {
     content: '🧁 ';
   }
+
+
+
+
+
+
+
+
 
 
 
