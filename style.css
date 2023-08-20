@@ -34,6 +34,42 @@ li{
     padding: 40px;
 }
 
+.recipe{
+    padding: 50px 90px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.ingredients{
+    padding: 30px 60px;
+    border-radius: 20px;
+}
+
+.title-text{
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.page-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+.res-page{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    gap: 30px;
+}
+
+/* styling main page */
+
 .container1{
     display: flex;
     justify-content: center;
@@ -94,65 +130,22 @@ figcaption{
 
 /* styling brownie page */
 
-.brownie-page{
-    display: flex;
-    flex-direction: column;
-    padding: 0px 50px;
-    gap: 30px;
-}
-
-.brownie-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px
-}
-
 .brownie-img{
    flex-basis: 200px;
    width: auto;
    border-radius: 20px;
 }
 
-.brownie-text{
-    text-align: center;
-    padding: 40px 0px;
-}
-
 .ingredients.brownies{
     background-color: rgba(21, 199, 184, 0.219);
-    padding: 30px 60px;
-    border-radius: 20px;
 }
 
 .recipe.brownies{
     background-color: rgba(92, 6, 6, 0.4);
-    padding: 50px 90px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    margin-top: 30px;
 }
 
 
 /* styling cheesecake page */
-
-
-.cheesecake-page{
-    display: flex;
-    flex-direction: column;
-    padding: 0px 50px;
-    gap: 30px;
-}
-
-.cheesecake-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px
-}
 
 .cheesecake-img{
    width: 400px;
@@ -160,38 +153,24 @@ figcaption{
    border-radius: 20px;
 }
 
-.cheesecake-text{
-    text-align: center;
-    padding: 40px 0px;
-}
-
 .ingredients.cheesecake{
     background-color: cornsilk;
-    padding: 30px 60px;
-    border-radius: 20px;
 }
 
 .recipe.cheesecake{
     background-color: rgb(241, 219, 223);
-    padding: 50px 90px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    margin-top: 30px;
 }
-
-
-
-
-
-
 
 /* styling chocolate cake page */
 
+.cake-img{
+   width: 400px;
+   height: auto;
+   border-radius: 20px;
+}
+
 .ingredients.cake{
-  background-color: rgba(27, 74, 112, 0.568);
+    background-color: rgba(27, 74, 112, 0.568);
 }
 
 .recipe.cake{
