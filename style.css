@@ -137,20 +137,58 @@ figcaption{
 }
 
 
+/* styling cheesecake page */
 
 
+.cheesecake-page{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+    gap: 30px;
+}
 
+.cheesecake-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
 
+.cheesecake-img{
+   width: 400px;
+   height: auto;
+   border-radius: 20px;
+}
 
-
+.cheesecake-text{
+    text-align: center;
+    padding: 40px 0px;
+}
 
 .ingredients.cheesecake{
     background-color: cornsilk;
+    padding: 30px 60px;
+    border-radius: 20px;
 }
 
 .recipe.cheesecake{
     background-color: rgb(241, 219, 223);
+    padding: 50px 90px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-top: 30px;
 }
+
+
+
+
+
+
+
+/* styling chocolate cake page */
 
 .ingredients.cake{
   background-color: rgba(27, 74, 112, 0.568);
